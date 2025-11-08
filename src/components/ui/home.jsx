@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchBlogs } from "../slice/blogSlice";
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Home({user}) {
   const dispatch = useDispatch();
   const { blogs, status } = useSelector((state) => state.blog);
 
@@ -13,12 +13,14 @@ export default function Home() {
 
   if (status === "loading") return <p>Loading...</p>;
 
-  return (
-    <div className="home-container">
-      <h1>All Blog Posts</h1>
-      {blogs.map((blog) => (
-        <div key={blog.id} className="blog-card">
-          <h2>{blog.username}</h2>
+  return (<>
+      {!user && <p>Please log in to add and view blogs.</p>}
+      {user && 
+      <div className="home-container">
+        <h1>All Blog Posts</h1>
+        {blogs.map((blog) => (
+          <div key={blog.id} className="blog-card">
+            <h2>{blog.username}</h2>
           <p>{blog.description}</p>
           {blog.image && blog.image[0]?.url && (
             <img src={blog.image[0].url} alt="Blog" />
@@ -26,6 +28,6 @@ export default function Home() {
           <Link to={`/myblogs/${blog.id}`}>View Detail</Link>
         </div>
       ))}
-    </div>
+    </div>}</>
   );
 }
