@@ -43,7 +43,7 @@ export default function Navbar({ user }) {
 				<div className="navbar-right">
 					<div className="navbar-user">
 						<span className="user-email">{user.email}</span>
-						<button className="btn btn-signout" onClick={signout}>Sign out</button>
+						<button className="btn btn-signout" onClick={signout}>log out</button>
 					</div>
 				</div>
 			)}
