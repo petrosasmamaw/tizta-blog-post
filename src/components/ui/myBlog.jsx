@@ -35,7 +35,7 @@ export default function MyBlog() {
           alt="Blog"
         />
       )}
-      <h3>Comments</h3>
+      <h3>Comments..</h3>
       <pre>{comments || "No comments yet."}</pre>
       <form onSubmit={handleComment}>
         <textarea
