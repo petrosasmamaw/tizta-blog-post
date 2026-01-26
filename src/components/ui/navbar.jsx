@@ -3,7 +3,6 @@ import { supabase } from "../../supabase";
 import { Link } from "react-router-dom";
 
 export default function Navbar({ user }) {
-	// signout function exposed as `signoutf` per request
 	const signout = async () => {
 		try {
 			await supabase.auth.signOut();
