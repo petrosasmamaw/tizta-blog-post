@@ -1,4 +1,4 @@
-import { useState } from "react";
+8import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addBlog } from "../slice/blogSlice";
 
@@ -40,7 +40,7 @@ export default function AddBlog({ userId }) {
         required
       />
       <textarea
-        placeholder="Write your description..."
+        placeholder="Write your description."
         value={description}
         onChange={(e) => setDescription(e.target.value)}
         required
