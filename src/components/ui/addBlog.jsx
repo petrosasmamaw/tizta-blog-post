@@ -31,7 +31,7 @@ export default function AddBlog({ userId }) {
 
   return (
     <form onSubmit={handleSubmit} className="form-container">
-      <h2>Create New Blogs</h2>
+      <h2>Create New Blog</h2>
       <input
         type="text"
         placeholder="Your Name"
