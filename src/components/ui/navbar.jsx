@@ -19,7 +19,7 @@ export default function Navbar({ user }) {
 		<nav className={classes.join(" ")}>
 			<div className="navbar-left">
 				<div className="navbar-actions">
-					<Link to="/"><button type="button" className="btn btn-home">Home</button></Link>
+					<Link to="/"><button type="button" className="btn btn-home">Home.</button></Link>
 					{user ? (
 						<>
 						<Link to="/myblogs"><button type="button" className="btn btn-my">My Posts</button></Link>
