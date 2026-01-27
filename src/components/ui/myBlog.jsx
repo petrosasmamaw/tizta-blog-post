@@ -28,7 +28,7 @@ export default function MyBlog() {
   return (
     <div className="myblog-container">
       <h1>{selectedBlog.username}</h1>
-      <p>{selectedBlog.description}</p>
+      <p>{selectedBlog.description} .</p>
       {selectedBlog.image && (
         <img
           src={Array.isArray(selectedBlog.image) ? selectedBlog.image[0].url : selectedBlog.image}
