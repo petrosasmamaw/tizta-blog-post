@@ -14,7 +14,7 @@ export default function Home({user}) {
   if (status === "loading") return <p>Loading...</p>;
 
   return (<>
-      {!user && <p>Please first log  and view blogs and create post
+      {!user && <p>Please first log  and view blogs and create posts here
 </p>}
       {user && 
       <div className="home-container">
