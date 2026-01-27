@@ -44,7 +44,7 @@ export default function MyBlog() {
           onChange={(e) => setNewComment(e.target.value)}
           required
         />
-        <button type="submit">Add Comment +</button>
+        <button type="submit">Add Comment</button>
       </form>
     </div>
   );
