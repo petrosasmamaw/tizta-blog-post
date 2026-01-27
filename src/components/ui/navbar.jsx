@@ -23,7 +23,7 @@ export default function Navbar({ user }) {
 					{user ? (
 						<>
 						<Link to="/myblogs"><button type="button" className="btn btn-my">My Posts</button></Link>
-						<Link to="/addblog"><button type="button" className="btn btn-add">Add Post</button></Link>
+						<Link to="/addblog"><button type="button" className="btn btn-add">+ Add Post</button></Link>
 						</>
 					) : (
 						<>
