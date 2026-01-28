@@ -21,7 +21,7 @@ export default function MyBlogs({ userId }) {
       <ul>
         {blogs.map((blog) => (
           <li key={blog.id}>
-            <h3>{blog.username}</h3>
+            <h3>user {blog.username}</h3>
             <p>{blog.description.slice(0, 100)}...</p>
             <Link to={`/myblogs/${blog.id}`}>View Detail</Link>
           </li>
