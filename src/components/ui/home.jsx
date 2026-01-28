@@ -22,7 +22,7 @@ export default function Home({user}) {
         {blogs.map((blog) => (
           <div key={blog.id} className="blog-card">
             <h2>user {blog.username}</h2>
-          <p>{blog.description}</p>
+          <p>desc_ {blog.description}</p>
           {blog.image && blog.image[0]?.url && (
             <img src={blog.image[0].url} alt="Blog" />
           )}
