@@ -34,7 +34,7 @@ export default function AddBlog({ userId }) {
       <h2>Create New Blogs . share your blog here</h2>
       <input
         type="text"
-        placeholder="Your Name"
+        placeholder="enter Your Name"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         required
