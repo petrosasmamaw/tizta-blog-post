@@ -27,7 +27,7 @@ export default function MyBlog() {
 
   return (
     <div className="myblog-container">
-      <h1>{selectedBlog.username}</h1>
+      <h1>user {selectedBlog.username}</h1>
       <p>{selectedBlog.description} .</p>
       {selectedBlog.image && (
         <img
