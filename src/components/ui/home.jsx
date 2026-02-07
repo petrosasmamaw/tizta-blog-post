@@ -18,7 +18,7 @@ export default function Home({user}) {
 </p>}
       {user && 
       <div className="home-container">
-        <h1>All Blog Posts</h1>
+        <h1>All Blog Posts.</h1>
         {blogs.map((blog) => (
           <div key={blog.id} className="blog-card">
             <h2>{blog.username}</h2>
