@@ -27,7 +27,7 @@ export default function Navbar({ user }) {
 						</>
 					) : (
 						<>
-							<Link to="/login"><button type="button" className="btn btn-login">Login.</button></Link>
+							<Link to="/login"><button type="button" className="btn btn-login">Login</button></Link>
 							<Link to="/register"><button type="button" className="btn btn-register">Register</button></Link>
 						</>
 					)}
