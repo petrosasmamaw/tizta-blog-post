@@ -26,7 +26,7 @@ export default function Home({user}) {
           {blog.image && blog.image[0]?.url && (
             <img src={blog.image[0].url} alt="Blog" />
           )}
-          <Link to={`/myblogs/${blog.id}`}>View Detail</Link>
+          <Link to={`/myblogs/${blog.id}`}>View Detail.</Link>
         </div>
       ))}
     </div>}</>
