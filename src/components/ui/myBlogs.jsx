@@ -23,7 +23,7 @@ export default function MyBlogs({ userId }) {
           <li key={blog.id}>
             <h3>user {blog.username}</h3>
             <p>{blog.description.slice(0, 100)}...</p>
-            <Link to={`/myblogs/${blog.id}`}>View Detail</Link>
+            <Link to={`/myblogs/${blog.id}`}>View Detail.</Link>
           </li>
         ))}
       </ul>
