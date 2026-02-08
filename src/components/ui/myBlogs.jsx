@@ -16,7 +16,7 @@ export default function MyBlogs({ userId }) {
 
   return (
     <div>
-      <h2>My Blogs </h2>
+      <h2>My Blogs.</h2>
       {blogs.length === 0 && <p>No blogs yet.you have to create new blog</p>}
       <ul>
         {blogs.map((blog) => (
