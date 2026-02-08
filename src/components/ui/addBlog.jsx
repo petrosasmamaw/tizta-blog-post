@@ -53,7 +53,7 @@ export default function AddBlog({ userId }) {
       />
       <input
         type="text"
-        placeholder="Initial Comment (optional)"
+        placeholder="Initial Comments (optional)"
         value={comment}
         onChange={(e) => setComment(e.target.value)}
       />
