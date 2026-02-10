@@ -40,7 +40,7 @@ export default function AddBlog({ userId }) {
         required
       />
       <textarea
-        placeholder="Write your description here"
+        placeholder="Write your description here."
         value={description}
         onChange={(e) => setDescription(e.target.value)}
         required
