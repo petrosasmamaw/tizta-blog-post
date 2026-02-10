@@ -57,7 +57,7 @@ export default function AddBlog({ userId }) {
         value={comment}
         onChange={(e) => setComment(e.target.value)}
       />
-      <button type="submit">Post Blog</button>
+      <button type="submit">Post Blog.</button>
     </form>
   );
 }
