@@ -11,7 +11,7 @@ export default function Home({user}) {
     dispatch(fetchBlogs());
   }, [dispatch]);
 
-  if (status === "loading") return <p>Loading...</p>;
+  if (status === "loading") return <p>Loading.</p>;
 
   return (<>
       {!user && <p>Please first log  and view blogs and create posts .
