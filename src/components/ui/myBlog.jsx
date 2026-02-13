@@ -7,7 +7,7 @@ export default function MyBlog() {
   const { id } = useParams();
   const dispatch = useDispatch();
   const { selectedBlog, comments } = useSelector((state) => state.blog);
-  const [newComment, setNewComment] = useState("");
+  const [newComment, setNewComment ] = useState("");
 
   useEffect(() => {
     if (id) {
