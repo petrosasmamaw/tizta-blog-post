@@ -11,7 +11,7 @@ export default function AddBlog({ userId }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!userId) return alert("You must be logged in to post a blog!");
+    if (!userId) return alert("You must be logged in to post a blog! .");
 
     dispatch(
       addBlog({
