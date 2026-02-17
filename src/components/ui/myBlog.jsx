@@ -23,7 +23,8 @@ export default function MyBlog() {
     setNewComment("");
   };
 
-  if (!selectedBlog) return <p>Loading..</p>;
+  if (!selectedBlog) return <p>Loading..
+</p>;
 
   return (
     <div className="myblog-container">
