@@ -12,7 +12,7 @@ export default function MyBlogs({ userId }) {
     if (userId) dispatch(fetchBlogsByUserId(userId));
   }, [dispatch, userId]);
 
-  if (status === "loading") return <p>Loading.</p>;
+  if (status === "loading") return <p>Loading..</p>;
 
   return (
     <div>
