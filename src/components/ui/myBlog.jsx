@@ -40,7 +40,7 @@ export default function MyBlog() {
       <pre>{comments || "No comments yet."}</pre>
       <form onSubmit={handleComment}>
         <textarea
-          placeholder="Add a comment here..
+          placeholder="Add a comment here...
 "
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
