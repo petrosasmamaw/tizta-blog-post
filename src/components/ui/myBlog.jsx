@@ -23,7 +23,7 @@ export default function MyBlog() {
     setNewComment("");
   };
 
-  if (!selectedBlog) return <p>Loading..
+  if (!selectedBlog) return <p>Loading
 </p>;
 
   return (
