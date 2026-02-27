@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addBlog } from "../slice/blogSlice";
-...
 export default function AddBlog({ userId }) {
   const [username, setUsername] = useState("");
   const [description, setDescription] = useState("");
