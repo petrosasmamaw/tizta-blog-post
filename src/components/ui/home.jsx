@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Home({user}) {
   const dispatch = useDispatch();
   const { blogs, status } = useSelector((state) => state.blog);
-12345
+123456
   useEffect(() => {
     dispatch(fetchBlogs());
   }, [dispatch]);
