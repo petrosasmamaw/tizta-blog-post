@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";from
+import React, { useState, useEffect } from "react";from new
 import { supabase } from "./supabase.js";
 import { Routes, Route } from "react-router-dom";
 
