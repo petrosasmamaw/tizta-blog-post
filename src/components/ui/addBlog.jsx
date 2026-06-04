@@ -59,4 +59,4 @@ export default function AddBlog({ userId }) {
       <button type="submit">Post Blog.</button>
     </form>
   );
-} 1
+} 
